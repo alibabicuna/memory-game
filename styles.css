@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.memoryGame {
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.memoryCard {
+    width: 220px;
+    height: 220px;
+    margin: 5px;
+    position: relative;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+i,
+img {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    background: #e024d1;
+}
+
+i {
+    font-size: 8em;
+    color: white;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
