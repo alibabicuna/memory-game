@@ -8,6 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    justify-content: center;
 }
 
 .memoryCard {
@@ -33,4 +34,9 @@ i {
     display: flex !important;
     align-items: center;
     justify-content: center;
+}
+
+footer {
+    text-align: center;
+    font-family: sans-serif;
 }
