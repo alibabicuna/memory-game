@@ -5,16 +5,14 @@
 }
 
 .memoryGame {
-    width: 1000px;
-    height: 600px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
 }
 
 .memoryCard {
-    width: 220px;
-    height: 220px;
+    width: 20%;
+    height: 20vw;
     margin: 5px;
     position: relative;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
@@ -30,7 +28,7 @@ img {
 }
 
 i {
-    font-size: 8em;
+    font-size: 12vw;
     color: white;
     display: flex !important;
     align-items: center;
